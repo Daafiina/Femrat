@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color: #f2e4c7;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn {
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ead3d3;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; /* corrected */
+}
+
+.btn:hover {
+    background-color: #45826e;
+    color: #fff;
+}
+
+.btn.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+
+  
