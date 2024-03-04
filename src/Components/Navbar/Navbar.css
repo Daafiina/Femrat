@@ -1,9 +1,7 @@
 nav{
     /* background-color: #eeeae2; */
     width: 100%;
-    /* color: #ad9158; */
     color:white;
-    padding: 6px 0;
     position: fixed;
     top:0;
     left:0;
@@ -32,4 +30,12 @@ nav ul {
     height: 100px;
     margin-left: 2rem;
     padding-bottom:20px;
+    padding-top: 10px;
 }
+
+.dark-nav{
+    background-color: rgb(20, 20, 104);
+    transition: 0.5;
+
+}
+
