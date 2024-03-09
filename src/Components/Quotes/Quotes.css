@@ -1,0 +1,30 @@
+.quotes{
+    background: linear-gradient(135deg, #4481eb, #04befe);
+    padding: 9rem 0;
+    width:100%;
+}
+
+.quotes_content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color:#fff;
+    letter-spacing: 1px;
+    padding:0 20px;
+}
+
+.paragraph{
+    line-height: 1.9;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.quote-icon{
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.paragraph_author{
+    margin:2rem 0;
+    text-transform: uppercase;
+}
