@@ -1,0 +1,125 @@
+.contact{
+    margin:80px auto;
+    min-height: 63vh;
+    width: 100%;
+    height: 50vh;
+    max-width: 1220px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+  }
+
+
+  .contact-form {
+    background-color: #5ab7e5;
+    position: relative;
+  }
+
+  
+  .contact-form form{
+    margin-top: 30px;
+  }
+
+.circle{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, #2a56cd);
+    position: absolute;
+}
+
+.circle.one{
+    width:80px;
+    height:80px;
+    top:130px;
+    right:-20px
+}
+
+.circle.two{
+    width:130px;
+    height:130px;
+    top:10px;
+    right:30px
+}
+
+.contact-form:before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #5ab7e5;
+    transform: rotate(45deg);
+    top:50px;
+    left:-13px;
+}
+
+.contact-form input, .contact-form textarea,.contact-form label{
+    display: block;
+    border-radius: 10px;
+    border:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 150px;
+    padding-left: 5px;
+    resize: none;
+    margin-left:50px;
+    letter-spacing: 0.5px;
+}
+
+.btn.color-1.form{
+    margin-left: 45px;
+}
+
+.contact-form textarea{
+    padding-right: 200px!important;
+    min-height: 150px;
+}
+
+.contact-form label{
+  color:rgb(255, 255, 255)!important;
+  font-size: 20px!important;
+  font-weight: 600;
+}
+
+.contact-info h3{
+    color: #4481eb;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.contact-info img{
+    width: 30px;
+    margin-left: 6px;
+}
+
+.contact-info p {
+    max-width: 450px;
+    line-height: 1.7;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.contact-info ul li{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    font-size: 20px;
+}
+
+
+.contact-form span{
+    color:#fff;
+    margin-left: 50px;
+    
+}
