@@ -1,5 +1,5 @@
 .contact{
-    margin:80px auto;
+    margin: 80px auto 80px;
     min-height: 63vh;
     width: 100%;
     height: 50vh;
@@ -11,6 +11,7 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    top:40px;
 }
 
 .contact-info {
@@ -122,4 +123,164 @@
     color:#fff;
     margin-left: 50px;
     
+}
+
+.background {
+    position:relative;
+}
+
+.background::before {
+   content: "";
+    background-image: url('../../assets/femrat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    filter: blur(7px);
+}
+  
+
+/*-Media Query-*/
+
+
+@media(max-width:1040px){
+    .contact{
+        min-height: 43vh;
+        height: 25vh;
+        max-width: 800px;
+    }
+    
+    .contact-info {
+        padding: 1.3rem 1.2rem;
+    }
+    .contact-form form{
+        margin-top: 15px;
+    }
+    .circle.one{
+        width:40px;
+        height:40px;
+        top:75px;
+        right:-5px
+    }
+    
+    .circle.two{
+        width:75px;
+        height:75px;
+        top:5px;
+        right:5px
+    }
+    .contact-form input, .contact-form textarea,.contact-form label{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 75px;
+        padding-left: 2px;
+        margin-left:25px;
+    }
+    .btn.color-1.form{
+        width: 110px;
+        font-size: 15px;
+        font-weight: 600;
+        height: 35px;
+        margin-top: 10px;
+        margin-left:22px
+    }
+    .contact-form label{
+        font-size: 15px!important;
+        font-weight: 500;
+      }
+      
+      .contact-info h3{
+          font-weight: 500;
+          font-size: 20px;
+          margin-bottom: 7px;
+      
+      }
+      
+      .contact-info img{
+          width: 20px;
+      }
+      
+      .contact-info p {
+          max-width: 350px;
+          margin-top: 15px;
+          font-size: 15px;
+      }
+      
+      .contact-info ul li{
+          margin:20px 0;
+          font-size: 15px;
+      }
+      .contact-form textarea{
+        padding-right: 120px!important;
+        min-height: 100px;
+    }
+}
+
+
+
+@media(max-width:840px){
+    .contact{
+        min-height: 33vh;
+        height: 35vh;
+        max-width: 600px;
+    }
+    .contact-info {
+        padding: 1.0rem 1.0rem;
+    }
+    .contact-form form{
+        margin-top: 10px;
+    }
+    .circle.one{
+        width:20px;
+        height:20px;
+        top:55px;
+        right:2px
+    }
+    
+    .circle.two{
+        width:50px;
+        height:50px;
+        top:5px;
+        right:5px
+    }
+    .contact-form input, .contact-form textarea,.contact-form label{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 45px;
+        margin-left:15px;
+    }
+    .btn.color-1.form{
+        width: 90px;
+        font-size: 13px;
+        font-weight: 600;
+        height: 35px;
+        margin-top: 10px;
+        margin-left:17px
+    }
+    .contact-form label{
+        font-size: 13px!important;
+        font-weight: 400;
+      }
+      
+      .contact-info h3{
+          font-weight: 600;
+          font-size: 17px;
+      }
+      .contact-info p {
+          max-width: 250px;
+          margin-top: 10px;
+          font-size: 12px;
+      }
+      
+      .contact-info ul li{
+          margin:15px 0;
+          font-size: 12px;
+      }
+      .contact-form textarea{
+        padding-right: 100px!important;
+        min-height: 100px;
+    }
 }

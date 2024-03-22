@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 import message_icon from '../../assets/msg-icon.png'
 import { MdEmail } from "react-icons/md";
@@ -6,7 +6,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
-    const [result, setResult] = React.useState("");
+    const [result, setResult] = useState('');
 
     const onSubmit = async (event) => {
       event.preventDefault();
@@ -32,13 +32,14 @@ const Contact = () => {
     };
 
     return (
+      <div className='background'>
         <div className='contact'>
             <div className='contact-info'>
                 <h3>Send us a message <img src={message_icon} alt=""/> </h3>
-                <p>Feel fre to reach out throught concat,
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Reprehenderit laborum facere vero, nobis harum eos.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus!
+                <p>
+                  Whether you have a question about our services, wish to collaborate,
+                  or simply want to share your thoughts with us,feel free to send us a message,we're here to listen. Your feedback is invaluable to us,
+                  please use the form below to get in touch, and we'll be sure to respond as soon as possible.
                 </p>
                 <ul>
                     <li><MdEmail style={{ marginRight:'10px',color:' #4481eb' }}  />Email:test@gmail.com</li>
@@ -61,8 +62,7 @@ const Contact = () => {
                 <span>{result}</span>
 
             </div>
-
-
+            </div>
         </div>
     )
 }
