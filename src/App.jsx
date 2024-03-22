@@ -6,6 +6,7 @@ import Title from './Components/Title/Title'
 import Gallery from './Components/Gallery/Gallery'
 import Quotes from './Components/Quotes/Quotes'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -13,11 +14,12 @@ const App = () => {
       <Navbar/>
       <Home/>
       <About/>
+      <Quotes/>
       <Title subTitle='Our Gallery' title='Some moments'/>
       <Gallery/>
-      <Quotes/>
       <Title subTitle='Contact us' title='Get in Touch'/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
