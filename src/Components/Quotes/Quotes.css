@@ -1,5 +1,5 @@
 .quotes{
-    background: linear-gradient(135deg, #4481eb, #04befe);
+    background: linear-gradient(135deg, #a5c9ed, #66c5e5);
     padding: 9rem 0;
     width:100%;
 }
@@ -27,4 +27,40 @@
 .paragraph_author{
     margin:2rem 0;
     text-transform: uppercase;
+}
+
+/*-Media Query-*/
+
+
+@media(max-width:1040px){
+    .quotes_content{
+        max-width: 600px;
+        padding:0 10px;
+    }
+    .paragraph{
+        line-height: 1.5;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .quote-icon{
+        padding-left:0.7rem;
+        padding-right: 0.7rem;
+    }
+    
+    
+}
+
+@media(max-width:840px){
+    .quotes_content{
+        max-width: 400px;
+        padding:0 10px;
+    }
+    .paragraph{
+        line-height: 1.5;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .paragraph_author{
+        font-size: 12px;
+    }
 }
