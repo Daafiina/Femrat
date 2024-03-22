@@ -24,30 +24,28 @@ a{
 }
 
 .btn {
-    width: 150px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #ead3d3;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align: center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out; /* corrected */
+  width: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ead3d3;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75); 
 }
 
 .btn:hover {
-    background-color: #45826e;
-    color: #fff;
-}
-
-.btn.color-1 {
-    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
-    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-image: linear-gradient(to right, #3d92d7,  hsl(235, 85%, 56%));
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75); 
+  color: #fff; 
 }
 
 .container {
@@ -174,6 +172,21 @@ a{
     background: var(--primary);
   }
 
+  
+
+@media (max-width:840px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    width: 110px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 35px;
+    margin: 2px;
+  }
+}
 
 
 

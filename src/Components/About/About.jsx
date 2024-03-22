@@ -10,17 +10,14 @@ function About() {
       </div>
       <div className='right-side'>
         <h3>Learn more about us</h3>
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing
-           elit. Cupiditate, dolores. Cupiditate possimus eius 
-           quaerat, debitis ullam vero? Voluptatibus voluptatum
-           iusto quaerat ea ratione corrupti sequi culpa, sint 
-           vel ipsum, animi qui.</p> <p>Libero, maxime quod officiis 
-           illum cumque aliquid impedit, aliquam perferendis 
-           praesentium velit laborum quam in quae obcaecati?
-           Quam suscipit quos, nulla quas reiciendis cum sapiente dolorem nemo aliquam vel saepe accusantium voluptas? Nihil ratione cum quam soluta, excepturi, nobis repellat corporis veritatis eum molestiae blanditiis eaque dolorem velit minus alias? Iusto suscipit mollitia, voluptatem, esse beatae nemo dolorem voluptas placeat fugiat ut rerum? Rem ipsa nesciunt enim perferendis adipisci.</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis expedita magnam id at esse asperiores mollitia nesciunt, praesentium rerum?</p>
-          <button className='btn color-1'>Read more!</button>
+        <h2>Empowering Women Globally for Equality and Rights</h2>
+        <p>Femrat is an independent organization steadfast in its commitment to advancing gender equality and promoting the realization
+           of women's human rights globally. At Femrat, we passionately advocate for a just world where the rights of all women are not
+           only acknowledged but respected, realized, and valued.</p>
+
+           <p>In our vision, women of all backgrounds, identities, and circumstances are empowered to live without fear of discrimination,
+            violence, or oppression. We envision a world where every woman has access to education, healthcare, economic opportunities, and decision-making processes, ensuring her autonomy and agency in shaping her own life.</p>
+          {/* <button className='btn color-1'>Read more!</button> */}
       </div>
     </div>
   )
